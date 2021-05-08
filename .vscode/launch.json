@@ -13,8 +13,6 @@
             ],
             "type": "pwa-node"
         },
-
-
         {
             "type": "pwa-chrome",
             "request": "launch",
