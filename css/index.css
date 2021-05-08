@@ -1,3 +1,6 @@
+
+
+/*** JUMBOTRON ***/
 .bimage{
     background: linear-gradient(to bottom right,rgba(255, 207, 223, 0.7) 0,rgba(176, 243, 241, 0.7) 100%),url(../img/light.jpg);
     background-repeat: no-repeat;
@@ -17,4 +20,58 @@
     color: #fff;
     border: 3px solid #eee;
     outline: none;
+}
+
+/*** CONTACT PAGE ***/
+.contact-section {
+    padding: 5rem 0 0;
+    background-color: #64a19d;
+}
+/* Contact Cards */
+.contact-section .card {
+    border: 0;
+    border-radius: 15px;
+}
+
+.contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    padding-top: 10px;
+}
+
+.contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+.contact-section .card a {
+    color: black;
+}
+/* Bottom Social Circles */
+.contact-section .social {
+    margin-top: 5rem;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+  
+
+/*** FOOTER ***/
+footer {   
+    padding: 3rem 0;
+    background-color: #64a19d;
+    color:rgba(255, 255, 255, 0.5)
 }
